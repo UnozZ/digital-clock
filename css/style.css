@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.title {
+    margin-top: 100px;
+    text-align: center;
+
+    font-size: 4rem;
+}
+
+.clock {
+    margin: auto;
+    margin-top: 50px;
+    width: 800px;
+    height: 150px;
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.data {
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 50px;
+
+    text-align: center;
+    font-size: 3rem;
+}
+
+.btn-switch {
+    margin: auto;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-switch button {
+    width: 200px;
+    height: 60px;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+    cursor: pointer;
+    border: solid 1px white;
+}
